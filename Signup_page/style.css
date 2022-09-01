@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.main_div {
+    width: 100%;
+    height: 100vh;
+    background-color: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main_div h1 {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 40px;
+
+}
+
+.main_div h4 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.sign-up-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+}
+
+.left-box {
+    padding: 50px;
+    background: #6b00d5;
+    flex-basis: 50%;
+    flex-grow: 1;
+    color: #fff;
+}
+
+.right-box {
+    padding: 10px 0;
+    flex-basis: 50%;
+    flex-grow: 1;
+    background: #fff;
+}
+
+.input-box {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1.5px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 13px;
+    background: transparent;
+}
+
+.input-box:hover {
+    background: #fff;
+    color: #000;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+::placeholder:hover {
+    color: #000;
+}
+
+input[type=checkbox] {
+    margin-top: 20px;
+}
+
+.left-box label {
+    font-size: 14px;
+}
+
+.left-box button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-box button:hover {
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+}
+
+.left-box button span {
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+
+.left-box button:hover span {
+    width: 30px;
+}
+
+.right-box a {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    color: #fff;
+    /* background: #6b00d5; */
+    font-size: 15px;
+    padding: 8px 30px;
+    text-decoration: none;
+}
+
+.right-box a i {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.fa-link {
+    background: #4267B2;
+    text-decoration: none;
+}
+
+.tw-link {
+    background: #1DA1F2;
+}
+
+.go-link {
+    background: #DB4437;
+}
+
+.ap-link {
+    background: black;
+}
+
+.login-msg {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.login-msg a {
+    text-decoration: none;
+    color: #ea4335;
+}
