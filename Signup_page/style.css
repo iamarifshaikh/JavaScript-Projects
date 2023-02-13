@@ -117,7 +117,7 @@ input[type=checkbox] {
 
 .right-box a {
     display: block;
-    width: 100%;
+    /* width: 100%; */
     max-width: 350px;
     margin-left: 25px;
     margin-bottom: 15px;
